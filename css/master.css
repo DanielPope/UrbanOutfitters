@@ -436,7 +436,7 @@ body #content .sale ul {
   list-style-type: none;
   text-decoration: none;
 }
-body #content .sale ul li {
+body #content .sale ul img {
   padding: 5px;
   *zoom: 1;
   float: left;
@@ -447,16 +447,16 @@ body #content .sale ul li {
   margin-right: 0%;
   cursor: pointer;
 }
-body #content .sale ul li:before,
-body #content .sale ul li:after {
+body #content .sale ul img:before,
+body #content .sale ul img:after {
   content: '';
   display: table;
 }
-body #content .sale ul li:after {
+body #content .sale ul img:after {
   clear: both;
 }
 @media only screen and (max-width: 778px) {
-  body #content .sale ul li {
+  body #content .sale ul img {
     *zoom: 1;
     float: left;
     clear: none;
@@ -465,17 +465,17 @@ body #content .sale ul li:after {
     margin-left: 0%;
     margin-right: 0%;
   }
-  body #content .sale ul li:before,
-  body #content .sale ul li:after {
+  body #content .sale ul img:before,
+  body #content .sale ul img:after {
     content: '';
     display: table;
   }
-  body #content .sale ul li:after {
+  body #content .sale ul img:after {
     clear: both;
   }
 }
 @media only screen and (max-width: 480px) {
-  body #content .sale ul li {
+  body #content .sale ul img {
     display: block;
     clear: both;
     float: none;
@@ -483,50 +483,44 @@ body #content .sale ul li:after {
     margin-left: auto;
     margin-right: auto;
   }
-  body #content .sale ul li:first-child {
+  body #content .sale ul img:first-child {
     margin-left: auto;
   }
-  body #content .sale ul li:last-child {
+  body #content .sale ul img:last-child {
     margin-right: auto;
   }
 }
-body #content .sale ul li:hover {
+body #content .sale ul img:hover {
   opacity: 0.5;
 }
 body #content .sale ul .img1 {
   width: 305px;
   height: 456px;
-  background: url("/img/1.jpg") no-repeat;
   margin-top: 25px;
 }
 body #content .sale ul .img2 {
   width: 305px;
   height: 456px;
-  background: url("/img/2.jpg") no-repeat;
   margin-top: 25px;
 }
 body #content .sale ul .img3 {
   width: 305px;
   height: 456px;
-  background: url("/img/3.jpg") no-repeat;
   margin-top: 25px;
 }
 body #content .sale ul .img4 {
   width: 305px;
   height: 456px;
-  background: url("/img/4.jpg") no-repeat;
   margin-top: 25px;
 }
 body #content .sale ul .img5 {
   width: 305px;
   height: 456px;
-  background: url("/img/5.jpg") no-repeat;
   margin-top: 25px;
 }
 body #content .sale ul .img6 {
   width: 305px;
   height: 456px;
-  background: url("/img/6.jpg") no-repeat;
   margin-top: 25px;
 }
 body #content footer {
