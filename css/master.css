@@ -269,10 +269,10 @@ body #container header .logo a {
 }
 @media only screen and (max-width: 500px) {
   body #container header .logo {
-    margin-left: 50px;
+    margin-left: 90px;
   }
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 375px) {
   body #container header .logo {
     margin-left: 40px;
   }
@@ -329,112 +329,36 @@ body #content #wrapper:after {
 body #content #wrapper:after {
   clear: both;
 }
-@media only screen and (max-width: 900px) {
-  body #content #wrapper {
-    *zoom: 1;
-    width: auto;
-    max-width: 1440px;
-    float: none;
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    padding-left: 0;
-    padding-right: 0;
-  }
-  body #content #wrapper:before,
-  body #content #wrapper:after {
-    content: '';
-    display: table;
-  }
-  body #content #wrapper:after {
-    clear: both;
-  }
-}
-@media only screen and (max-width: 700px) {
-  body #content #wrapper {
-    *zoom: 1;
-    width: auto;
-    max-width: 1440px;
-    float: none;
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    padding-left: 0;
-    padding-right: 0;
-  }
-  body #content #wrapper:before,
-  body #content #wrapper:after {
-    content: '';
-    display: table;
-  }
-  body #content #wrapper:after {
-    clear: both;
-  }
-}
 body #content .sale {
   background: #fff;
   text-align: right;
   padding: 40px 0px;
 }
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 800px) {
   body #content .sale {
-    margin-left: 250px;
+    margin-top: -150px;
+    margin-left: 20px;
   }
 }
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 530px) {
   body #content .sale {
     margin-left: -20px;
-  }
-}
-@media only screen and (max-width: 1000px) {
-  body #content .sale {
-    margin-left: 120px;
-  }
-}
-@media only screen and (max-width: 900px) {
-  body #content .sale {
-    margin-left: 70px;
-  }
-}
-@media only screen and (max-width: 880px) {
-  body #content .sale {
-    margin-left: 30px;
-    margin-top: -100px;
-  }
-}
-@media only screen and (max-width: 820px) {
-  body #content .sale {
-    margin-left: 50px;
-    margin-top: -100px;
-  }
-}
-@media only screen and (max-width: 768px) {
-  body #content .sale {
-    margin-left: 30px;
-    margin-top: -100px;
-  }
-}
-@media only screen and (max-width: 603px) {
-  body #content .sale {
-    margin-left: 90px;
-    margin-top: -100px;
-  }
-}
-@media only screen and (max-width: 550px) {
-  body #content .sale {
-    margin-left: 50px;
-    margin-top: -100px;
-  }
-}
-@media only screen and (max-width: 480px) {
-  body #content .sale {
-    margin-left: -33px;
-    margin-top: -100px;
   }
 }
 body #content .sale ul {
   list-style-type: none;
   text-decoration: none;
+  margin-left: -13px;
+}
+@media only screen and (max-width: 1000px) {
+  body #content .sale ul {
+    margin-left: 3px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  body #content .sale ul {
+    margin-left: -20px;
+  }
 }
 body #content .sale ul img {
   padding: 5px;
@@ -455,7 +379,7 @@ body #content .sale ul img:after {
 body #content .sale ul img:after {
   clear: both;
 }
-@media only screen and (max-width: 778px) {
+@media only screen and (max-width: 800px) {
   body #content .sale ul img {
     *zoom: 1;
     float: left;
@@ -474,7 +398,7 @@ body #content .sale ul img:after {
     clear: both;
   }
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 530px) {
   body #content .sale ul img {
     display: block;
     clear: both;
@@ -493,35 +417,28 @@ body #content .sale ul img:after {
 body #content .sale ul img:hover {
   opacity: 0.5;
 }
-body #content .sale ul .img1 {
+body #content .sale ul img {
   width: 305px;
   height: 456px;
   margin-top: 25px;
 }
-body #content .sale ul .img2 {
-  width: 305px;
-  height: 456px;
-  margin-top: 25px;
+@media only screen and (max-width: 1000px) {
+  body #content .sale ul img {
+    width: 30%;
+    height: 30%;
+  }
 }
-body #content .sale ul .img3 {
-  width: 305px;
-  height: 456px;
-  margin-top: 25px;
+@media only screen and (max-width: 800px) {
+  body #content .sale ul img {
+    width: 44%;
+    height: 44%;
+  }
 }
-body #content .sale ul .img4 {
-  width: 305px;
-  height: 456px;
-  margin-top: 25px;
-}
-body #content .sale ul .img5 {
-  width: 305px;
-  height: 456px;
-  margin-top: 25px;
-}
-body #content .sale ul .img6 {
-  width: 305px;
-  height: 456px;
-  margin-top: 25px;
+@media only screen and (max-width: 530px) {
+  body #content .sale ul img {
+    width: 60%;
+    height: 60%;
+  }
 }
 body #content footer {
   background: #dadada;
